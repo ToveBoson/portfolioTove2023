@@ -1,0 +1,55 @@
+.hero {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+
+  &__textContainer {
+    text-align: center;
+
+    &__nameText {
+      font-size: 30px;
+      text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    }
+
+    &__jobText {
+      font-size: 25px;
+      text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    }
+  }
+
+  &__buttonContainer {
+    &__projectButton {
+      background-color: yellow;
+      color: rgb(0, 0, 0);
+      text-transform: uppercase;
+      padding: 10px;
+      margin: 5px;
+      border: 1px solid white;
+      font-weight: bold;
+    }
+
+    &__aboutButton {
+      background-color: transparent;
+      // color: white;
+      text-transform: uppercase;
+      padding: 10px;
+      margin: 5px;
+      border: 1px solid white;
+      font-weight: bold;
+    }
+  }
+}
+
+.project {
+  text-decoration: none;
+  color: black;
+}
+
+.about {
+  text-decoration: none;
+  color: white;
+}

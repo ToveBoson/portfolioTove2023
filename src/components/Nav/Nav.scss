@@ -1,0 +1,48 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  background-color: #00000069;
+  width: 100%;
+
+  div {
+    z-index: 1;
+  }
+
+  &__logo {
+    font-weight: 900;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    margin-left: 10px;
+  }
+  &__container {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style-type: none;
+    z-index: 1;
+
+    &__list {
+      &__link {
+        text-decoration: none;
+        color: white;
+        display: none;
+      }
+    }
+  }
+
+  &__hamburger {
+    cursor: pointer;
+    font-size: 30px;
+    margin-right: 10px;
+    z-index: 1;
+  }
+}
+
+.linkShow {
+  display: block;
+  text-decoration: none;
+  color: white;
+}
